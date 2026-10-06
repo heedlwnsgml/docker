@@ -1,0 +1,10 @@
+FROM ubuntu:latest
+
+ENV TEST=HelloDocker
+
+RUN echo "Shell 형식 : $TEST"
+
+RUN ["echo", "Exec 형식 : $TEST"]
+
+RUN ["/bin/bash", "-c", "echo \"Exec: $TEST\""]
+

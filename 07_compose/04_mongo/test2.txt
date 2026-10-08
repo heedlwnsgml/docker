@@ -1,0 +1,3 @@
+NAME                       IMAGE           COMMAND                  SERVICE         CREATED              STATUS              PORTS
+04_mongo-mongo-1           mongo           "docker-entrypoint.s…"   mongo           About a minute ago   Up About a minute   27017/tcp
+04_mongo-mongo-express-1   mongo-express   "/sbin/tini -- /dock…"   mongo-express   About a minute ago   Up About a minute   0.0.0.0:8081->8081/tcp, [::]:8081->8081/tcp

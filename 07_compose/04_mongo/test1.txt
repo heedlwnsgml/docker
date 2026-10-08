@@ -1,0 +1,3 @@
+CONTAINER ID   IMAGE           COMMAND                  CREATED              STATUS              PORTS                                         NAMES
+52c5d88f0283   mongo-express   "/sbin/tini -- /dock…"   About a minute ago   Up About a minute   0.0.0.0:8081->8081/tcp, [::]:8081->8081/tcp   04_mongo-mongo-express-1
+a49e11e45d75   mongo           "docker-entrypoint.s…"   About a minute ago   Up About a minute   27017/tcp                                     04_mongo-mongo-1
